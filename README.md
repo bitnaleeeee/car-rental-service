@@ -33,10 +33,9 @@
 <br>
 
 ## 구현 사항
-
+- [x] Figma 상의 디자인 및 기능 구현
 - [x] 차량 리스트 : 차량이 없을 때 처리, 차량 불러오는 중 처리
-- [x] 차량 상세
-- [x] SEO : 카카오톡, 페이스북에 공유시 미리보기 
+- [x] 차량 상세 페이지 
 
 
 <br />
@@ -192,7 +191,7 @@ export default RootRouter;
 ```
 ### 카카오톡, 페이스북 공유 시 미리보기
 
-: `index.html` `meta` 태그를 활용
+`index.html` `meta` 태그를 활용
 
 ```html
   <meta name="title" property="og:title" content="현대 아이오닉5" />
